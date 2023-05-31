@@ -6,11 +6,11 @@ self.__RSC_CSS_MANIFEST={
     ]
   },
   "cssModules": {
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\create\\page": [
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\page": [
       "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\globals.css",
       "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ],
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\page": [
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\create\\page": [
       "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\globals.css",
       "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ],
@@ -19,6 +19,10 @@ self.__RSC_CSS_MANIFEST={
       "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ],
     "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\login\\page": [
+      "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\globals.css",
+      "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\blogs\\[blogId]\\page": [
       "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\globals.css",
       "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]

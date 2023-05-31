@@ -20,8 +20,8 @@ export default function Navbar({currentUser}:UserMenuProps) {
             <div>{currentUser?.name}</div>
 
             <div className='flex gap-4'>
-            <Link href='/'>Home</Link>
-            <Link href='/create'>Create</Link>
+            <Link className='bg-red-400 rounded-md py-[5px]' href='/'>Accueil</Link>
+            <Link href='/create'>Un truc à troc ?</Link>
             {currentUser ? <button onClick={() => signOut()}>Sign out</button> : <Link href='/register'>Register</Link>}
             </div>
         </nav>
