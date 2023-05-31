@@ -19,7 +19,7 @@ export default async function Home({searchParams}:HomeProps) {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between gap-4 ">
       <HeroHeader />
-        <h1 className="font-bold text-3xl border-2">Annonces populaires</h1>
+        <h1 className="font-bold text-3xl">Annonces populaires</h1>
         <div className="grid grid-cols-4 gap-4">
           {blogs.map((item:any) => (
             <SingleBlog

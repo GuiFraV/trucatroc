@@ -6,6 +6,8 @@ import axios from "axios";
 import { useRouter } from 'next/navigation'
 import {RiDeleteBin5Line} from 'react-icons/ri'
 import {BsFillPencilFill} from 'react-icons/bs'
+import { formatDistanceToNow } from 'date-fns'
+import { fr } from 'date-fns/locale'
 
 interface BlogProps {
     key:string
@@ -45,9 +47,9 @@ export default function SingleBlog({key,data,currentUser}:BlogProps) {
     
 
   return (
-    <div className="border-2 p-4">
+    <div className="p-4">
 
-          <div className="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-sm rounded-b-[40px] overflow-hidden shadow-lg">
             <Image width={400} className="w-[500px] rounded-t-[40px] h-[300px]" height={300} src={data.imageSrc} alt="Product Image" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">{data.name}</div>
@@ -56,10 +58,15 @@ export default function SingleBlog({key,data,currentUser}:BlogProps) {
               </p>
             </div>
             <div className="px-6 pt-4 pb-2 mb-4">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+              {/* <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-              <p>Posté il y a <span>{data.createdAt}</span></p>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span> */}
+              <p>
+                Posté il y a{' '}
+                <span>
+                  {formatDistanceToNow(new Date(data.createdAt), { addSuffix: true, locale: fr  })}
+                </span>
+              </p>
               {data.userId === currentUser?.id && (
                   <div className="flex items-center gap-4 mt-4">
                 <RiDeleteBin5Line onClick={onDelete} className=" cursor-pointer text-[1.5rem]"/>

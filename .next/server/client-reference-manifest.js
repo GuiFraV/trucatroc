@@ -742,6 +742,58 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./components/navbar/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/navbar/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/navbar/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/navbar/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/Group224.svg": {
       "*": {
         "id": "(sc_client)/./public/Group224.svg",
@@ -816,32 +868,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/create/page:static/chunks/app/create/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
         ],
         "async": false
       }
@@ -992,32 +1018,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./components/navbar/Navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/navbar/Navbar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/navbar/Navbar.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/navbar/Navbar.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/create/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/create/page.tsx",
@@ -1049,7 +1049,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/input/Input.tsx",
         "name": "*",
         "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
+          "app/create/page:static/chunks/app/create/page.js"
         ],
         "async": false
       },
@@ -1057,7 +1057,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/input/Input.tsx",
         "name": "",
         "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
+          "app/create/page:static/chunks/app/create/page.js"
         ],
         "async": false
       },
@@ -1065,7 +1065,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/input/Input.tsx",
         "name": "default",
         "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
+          "app/create/page:static/chunks/app/create/page.js"
         ],
         "async": false
       }
@@ -1164,58 +1164,6 @@ self.__RSC_MANIFEST={
         "name": "value",
         "chunks": [
           "app/create/page:static/chunks/app/create/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/login/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/login/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/login/page:static/chunks/app/login/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/login/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/login/page:static/chunks/app/login/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/login/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/login/page:static/chunks/app/login/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/register/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/register/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/register/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/register/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/register/page:static/chunks/app/register/page.js"
         ],
         "async": false
       }
@@ -2924,6 +2872,92 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\components\\navbar\\Navbar.tsx": {
+      "id": "(app-client)/./components/navbar/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\components\\navbar\\Navbar.tsx#": {
+      "id": "(app-client)/./components/navbar/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\components\\navbar\\Navbar.tsx#default": {
+      "id": "(app-client)/./components/navbar/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\public\\Group224.svg": {
       "id": "(app-client)/./public/Group224.svg",
       "name": "*",
@@ -3017,54 +3051,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/create/page:static/chunks/app/create/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
@@ -3356,44 +3342,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\components\\navbar\\Navbar.tsx": {
-      "id": "(app-client)/./components/navbar/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\components\\navbar\\Navbar.tsx#": {
-      "id": "(app-client)/./components/navbar/Navbar.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\components\\navbar\\Navbar.tsx#default": {
-      "id": "(app-client)/./components/navbar/Navbar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\create\\page.tsx": {
       "id": "(app-client)/./app/create/page.tsx",
       "name": "*",
@@ -3422,7 +3370,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/input/Input.tsx",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/create/page:static/chunks/app/create/page.js"
       ],
       "async": false
     },
@@ -3430,7 +3378,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/input/Input.tsx",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/create/page:static/chunks/app/create/page.js"
       ],
       "async": false
     },
@@ -3438,7 +3386,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/input/Input.tsx",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/create/page:static/chunks/app/create/page.js"
       ],
       "async": false
     },
@@ -3631,54 +3579,6 @@ self.__RSC_MANIFEST={
       "name": "value",
       "chunks": [
         "app/create/page:static/chunks/app/create/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\login\\page.tsx": {
-      "id": "(app-client)/./app/login/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/login/page:static/chunks/app/login/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\login\\page.tsx#": {
-      "id": "(app-client)/./app/login/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/login/page:static/chunks/app/login/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\login\\page.tsx#default": {
-      "id": "(app-client)/./app/login/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/login/page:static/chunks/app/login/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\register\\page.tsx": {
-      "id": "(app-client)/./app/register/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\register\\page.tsx#": {
-      "id": "(app-client)/./app/register/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\GuiFra\\Desktop\\Test Trucatroc\\app\\register\\page.tsx#default": {
-      "id": "(app-client)/./app/register/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     }
